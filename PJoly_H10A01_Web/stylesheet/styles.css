@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+ background-color: rgba(109, 7, 7, 0.7);
+ font-size: 1.5em;
+ z-index: 1;
+ color: black;
+
+}
+
+.background_img {
+  background-repeat: repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  opacity: 0.4;
+  max-height: 794px;
+  max-width: 1080px;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(62, 30, 95);
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(62, 30, 95);
+}
+main {
+  padding-inline-start: 2em;
+}
+@media screen and (max-width:768px) {
+  .background_img { max-height: fit-content;
+    max-width: fit-content;
+    
+  }
+}
